@@ -48,7 +48,7 @@ public class PokedexData : MonoBehaviour
             {
                 string[] values = line.Split(',');
 
-                if (values.Length >= 4) // Vérifie si la ligne contient au moins 2 valeurs (variable1 et variable2)
+                if (values.Length >= 4)
                 {
                     PokemonData dataObject = ScriptableObject.CreateInstance<PokemonData>();
                     dataObject.pokedexNumber = int.Parse(values[0]);
