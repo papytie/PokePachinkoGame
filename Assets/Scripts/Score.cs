@@ -8,16 +8,22 @@ public class Score : MonoBehaviour, IToken
 {
     public SpriteRenderer SpriteRenderer { get; set; }
     
-    [SerializeField] float speed = 1.0f;
+    [SerializeField] float duration = 5.0f;
 
     Vector2 endPosition;
     Vector2 startPosition;
+    float currentTime = 0;
 
     public void InitToken()
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
-        startPosition = transform.position;
 
+    }
+
+    public void InitLerpPos(Vector2 start, Vector2 end)
+    {
+        startPosition = start;
+        endPosition = end;
     }
 
     public void SetSprite(Sprite newSprite)
@@ -25,13 +31,10 @@ public class Score : MonoBehaviour, IToken
         SpriteRenderer.sprite = newSprite;
     }
 
-    void MoveAlong(float time)
-    {
-        transform.position = Vector2.Lerp(startPosition, endPosition, time);
-    }
 
     void Update()
     {
-        //MoveAlong(Time.time*speed);
+        currentTime += Time.deltaTime;
+        transform.position = Vector2.Lerp(startPosition, endPosition, currentTime/duration);
     }
 }

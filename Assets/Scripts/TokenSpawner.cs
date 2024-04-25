@@ -7,7 +7,8 @@ public class TokenSpawner : MonoBehaviour
     [Header("Settings"), Space]
 
     [Header("Movement Settings")]
-    [SerializeField] SpawnerMovement SpawnerMove = SpawnerMovement.Fixed;
+    [SerializeField] SpawnPosition SpawnerMove = SpawnPosition.Fixed;
+    [SerializeField] Vector2 spawnPosition;
     [SerializeField] Vector2 startPosition;
     [SerializeField] Vector2 endPosition;
     [SerializeField] float movementTime = 3;
@@ -26,7 +27,7 @@ public class TokenSpawner : MonoBehaviour
     [Header("Token Settings")]
     [SerializeField] TokenType tokenType = TokenType.Marble;
     [SerializeField] bool randomSprite = false;
-    [SerializeField] SpriteSheet spriteSheet;
+    [SerializeField] SpriteType spriteType;
     [SerializeField] GameObject marbleObject;
     [SerializeField] GameObject scoreObject;
     [SerializeField] GameObject bumperObject;
@@ -34,25 +35,18 @@ public class TokenSpawner : MonoBehaviour
     [Header("Token Settings")]
     [SerializeField] bool showDebug;
     [SerializeField] Color gridColor = Color.white;
+    [SerializeField] Color spawnColor = Color.white;
     [SerializeField] Color startColor = Color.white;
     [SerializeField] Color endColor = Color.white;
-
-    List<Sprite> spriteList;
-
 
     float currentTime = 0;
     float timeIncr = 1;
     float endTime = 0;
 
-    private void Awake()
-    {
-        if(randomSprite)
-            spriteList = new List<Sprite>(Resources.LoadAll<Sprite>(GetSpriteListName(spriteSheet)));
-    }
 
     private void Start()
     {
-        if (SpawnerMove == SpawnerMovement.Moving)
+        if (SpawnerMove == SpawnPosition.Moving)
             currentTime = Time.time;
 
         if (spawnTiming == SpawnTiming.OnSpawnTimer)
@@ -64,14 +58,14 @@ public class TokenSpawner : MonoBehaviour
 
     void Update()
     {
-        if(SpawnerMove == SpawnerMovement.Moving)
+        if(SpawnerMove == SpawnPosition.Moving)
         {
             currentTime += Time.deltaTime * timeIncr;
             if (currentTime >= movementTime || currentTime <= 0)
             {
                 timeIncr *= -1;
             }
-            transform.position = Vector2.Lerp(startPosition, endPosition, currentTime/movementTime);
+            spawnPosition = Vector2.Lerp(startPosition, endPosition, currentTime/movementTime);
         }
 
         if (spawnTiming == SpawnTiming.OnSpawnTimer)
@@ -79,7 +73,7 @@ public class TokenSpawner : MonoBehaviour
             if(Time.time >= endTime) 
             {
                 endTime = Time.time + spawnTime;
-                SpawnToken(tokenType, transform.position);
+                SpawnToken(tokenType, spawnPosition);
             }
 
         }
@@ -115,31 +109,37 @@ public class TokenSpawner : MonoBehaviour
         switch (type)
         {
             case TokenType.Marble:
-                newToken = Instantiate(GetObject(tokenType), pos, Quaternion.identity).GetComponent<Marble>();
+                Marble newMarble = Instantiate(GetObject(tokenType), pos, Quaternion.identity).GetComponent<Marble>();
+                //Specific Marble methods
+                newToken = newMarble;
                 break;
 
             case TokenType.Bumper:
-                newToken = Instantiate(GetObject(tokenType), pos, Quaternion.identity).GetComponent<Bumper>();
+                Bumper newBumper = Instantiate(GetObject(tokenType), pos, Quaternion.identity).GetComponent<Bumper>();
+                //Specific Bumper methods
+                newToken = newBumper;
                 break;
 
             case TokenType.Score:
-                newToken = Instantiate(GetObject(tokenType), pos, Quaternion.identity).GetComponent<Score>();
+                Score newScore = Instantiate(GetObject(tokenType), pos, Quaternion.identity).GetComponent<Score>();
+                newScore.InitLerpPos(startPosition, endPosition);
+                newToken = newScore;
                 break;
         }
 
         newToken.InitToken();
         
         if (randomSprite)
-            newToken.SetSprite(spriteList[Random.Range(0, spriteList.Count)]);
+            newToken.SetSprite(GetSprite(spriteType, PokedexData.profilesList[Random.Range(0, PokedexData.profilesList.Count)]));
     
     }
 
-    string GetSpriteListName(SpriteSheet sprite)
+    Sprite GetSprite(SpriteType spriteType, PokemonData profile)
     {
-        return sprite switch
+        return spriteType switch
         { 
-            SpriteSheet.Portraits => GameData.POKEMONS_PORTRAIT_LARGE,
-            SpriteSheet.Icons => GameData.POKEMONS_ICONS_SMALL,
+            SpriteType.Portraits => profile.portrait,
+            SpriteType.Icons => profile.icon,
             _ => null,
         };
     }
@@ -159,7 +159,7 @@ public class TokenSpawner : MonoBehaviour
     {
         if(showDebug)
         {
-            if(SpawnerMove == SpawnerMovement.Moving)
+            if(SpawnerMove == SpawnPosition.Moving)
             {
                 Gizmos.color = startColor;
                 Gizmos.DrawSphere(startPosition, 0.5f);
@@ -167,12 +167,36 @@ public class TokenSpawner : MonoBehaviour
                 Gizmos.DrawSphere(endPosition, 0.5f);
             }
 
+            if(SpawnerMove == SpawnPosition.Fixed)
+            {
+                Gizmos.color = spawnColor;
+                Gizmos.DrawWireSphere(spawnPosition, 0.5f);
+            }
+
             if(spawnType == SpawnType.Grid)
             {
-                Gizmos.color = gridColor;
-                Gizmos.DrawCube(transform.position, new Vector2(gridWidth, gridHeight));
+                float columnWidth = gridWidth / gridColumns;
+                float rowHeight = gridHeight / gridRows;
+                Vector2 startPoint = new(transform.position.x - gridWidth / 2 + columnWidth / 2, transform.position.y - gridHeight / 2 + rowHeight / 2);
+                bool valid = true;
+
+                for (int i = 0; i < gridColumns; i++)
+                {
+                    valid = !valid;
+                    for (int j = 0; j < gridRows; j++)
+                    {
+                        if (valid)
+                        {
+                            Gizmos.color = gridColor;
+                            Gizmos.DrawSphere(new Vector2(startPoint.x + i * columnWidth, startPoint.y + j * rowHeight), 0.3f);
+                            Gizmos.color = Color.white;
+                            valid = false;
+                        }
+                        else valid = true;
+                    }
+                }
+
             }
-            Gizmos.color = Color.white;
         }
     }
 }
@@ -184,7 +208,7 @@ public enum TokenType
     Score = 2,
 }
 
-public enum SpawnerMovement
+public enum SpawnPosition
 {
     Fixed = 0,
     Moving = 1,
@@ -202,7 +226,7 @@ public enum SpawnType
     Grid = 1,
 }
 
-public enum SpriteSheet
+public enum SpriteType
 {
     Icons = 0,
     Portraits = 1,

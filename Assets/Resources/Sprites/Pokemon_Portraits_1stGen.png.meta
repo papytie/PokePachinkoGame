@@ -1,0 +1,3465 @@
+fileFormatVersion: 2
+guid: d5c4474a5cc8a6446bb3bd51c6c4b8d6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2401
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67eb660e414df1240952d203cf0faf9d
+      internalID: 2000866102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2401
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c92310d90a67eb499ddd410684a1f93
+      internalID: -1306389342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_2
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2401
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a11c9457c2f28c48b96397143bea5d9
+      internalID: -206264103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_3
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 2401
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47161af82dbd3bf418cb50f86b1594eb
+      internalID: 1444013573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_4
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 2401
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e74ff77578a4e94a9bcf2cd7f160204
+      internalID: 1779975804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_5
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 2401
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3451f928af3ac7248bf4d1f24f62c04f
+      internalID: 983809593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_6
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 2401
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ee6ef396146814295202411f2c7dd2
+      internalID: -1092612424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_7
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 2401
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e06691775206743942f16184965f71
+      internalID: 911709049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_8
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 2401
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e238147aa354d45afe2863d95d9a6f
+      internalID: -1815308420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_9
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 2401
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097867d328e18ac4b8ba4b0c58dd018c
+      internalID: -635051864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_10
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 2401
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca6eee67a31474449d611e2121f99ff
+      internalID: 1928482267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_11
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 2401
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a817d2d59d8eaba49aea7346b8d76047
+      internalID: -227990987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_12
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 2401
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d24a216860d7a46a6b8ac3e82d6f87
+      internalID: -55748509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_13
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 2401
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229a86f7f27700e4aa8840b5145e6f2f
+      internalID: -1703901250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2161
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccb3606a7a6a8742916cf52b21d9b7d
+      internalID: -542336397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_15
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2161
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58be404c1a5870b42b04f2f0087037eb
+      internalID: -382592214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_16
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2161
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3771f13c5bcd2774fa7bd6759af1e849
+      internalID: 1423927800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_17
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 2161
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69f9342b9ad8dd41b73e2012bc4dbb1
+      internalID: -416486557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_18
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 2161
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480886eff35c5fa4593d03a10d611cf8
+      internalID: 520138114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_19
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 2161
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1083545591ddd9c448467c9dd14f3105
+      internalID: 484715805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_20
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 2161
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4a44f8102a4ba458f408c56e353251
+      internalID: 875746102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_21
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 2161
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bd3dabb9081874db893c710e3829e1
+      internalID: 2076521797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_22
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 2161
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c86808d4111e224892d4d4cb4f674e2
+      internalID: 2104307687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_23
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 2161
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0945bcc959a1b24281fa36af28b9977
+      internalID: 1828217347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_24
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 2161
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9ca0787b10d174b8cbac7aec71e47d
+      internalID: -724356694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_25
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 2161
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac3f274ca6323b42a89fb914caaa5ee
+      internalID: -1934334662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_26
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 2161
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e18fc8dcbdd9944b3ae07960c1eb48
+      internalID: -1584972603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_27
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 2161
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741a68628c508fe4bb1cb649e4cc5bc8
+      internalID: 482523474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_28
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1921
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7369dc717cd42c44f9972fe2b1923a78
+      internalID: 1529163836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_29
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1921
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847cf171f13bd874d96d468b1d826400
+      internalID: -947172465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_30
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1921
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca066676ff1faf248af9642d6c56b582
+      internalID: 1918802501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_31
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1921
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bada81ef969d944983339670166cef2
+      internalID: 1955131847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_32
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 1921
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f7b7fe137556f4fba7b07ef6244b1b
+      internalID: 1004540540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_33
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 1921
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb39a1457347f84abe9d88dce8f43ce
+      internalID: -1935842058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_34
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1921
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f6cb5bd6be49d43a1f0ce0e13746eb
+      internalID: -1285615397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_35
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1921
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6bd0a97100a974db724e334efbb929
+      internalID: 851866873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_36
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 1921
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7523759a53e944fb83d8cd9b1b4202
+      internalID: -683331346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_37
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 1921
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03a4352524a44f4889ad78b4f07208b
+      internalID: 1590668118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_38
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 1921
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2203122b5e956d9438589cacd3d15545
+      internalID: 1277495981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_39
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 1921
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ceeda9e8a426a4fa3d3ec569edda61
+      internalID: -1219255725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_40
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 1921
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e611edd1b50467042899a9c70479393d
+      internalID: -214407761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_41
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 1921
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c3038dcb8db534eb2c104ea39989e0
+      internalID: -1896284183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_42
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1681
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c0059132e9b9e43950293e7f9a394f
+      internalID: 1580134072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_43
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1681
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311e81b2febe4eb438f309de240df7c7
+      internalID: 1402422845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_44
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1681
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9212fc9e557495f4b9e7e38b53a137b7
+      internalID: -2062884566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_45
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1681
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b66b53defd121b4abaac0a81e9a9e2e
+      internalID: 119754089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_46
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 1681
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8745d930ae92b42b317095ad67164e
+      internalID: -255998774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_47
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 1681
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121f2fde1f8de81488c94d24429b3b2c
+      internalID: 474477168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_48
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1681
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff6a6b7fb9b9904db637618fcbf4b66
+      internalID: -1018833940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_49
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1681
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d59ccdaf30c08248b50f94eebad70ae
+      internalID: -831826642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_50
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 1681
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ffc02148f12e14b9be90bcc53a8670
+      internalID: -1928299217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_51
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 1681
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b6b4475dcf5564fbb999fcdacccc34
+      internalID: -1202689594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_52
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 1681
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9919d8808ac85634ca5a968706554c8c
+      internalID: 65659905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_53
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 1681
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99397801f0c26644b257cad6111788c
+      internalID: -1360685126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_54
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 1681
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac66b1f651becd4b93c68297125d48a
+      internalID: 1412116661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_55
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 1681
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056bfd4e0790c12479f55281c4562ca9
+      internalID: 988871111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_56
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1441
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e3ca1addaa5ba4987f7c2b1bb21059
+      internalID: -1625918951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_57
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1441
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c0993bad9b9424eafa0abf0b93e7fd
+      internalID: -620130074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_58
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1441
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8322b2a2cc1f4124ba8e9128fc9ccd33
+      internalID: -533042516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_59
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1441
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1436ff4f19ca2746997cdba60cc65ba
+      internalID: -1354419151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_60
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 1441
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf629c98209f7b4e961de230f0b4ef1
+      internalID: -818164814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_61
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 1441
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e9a66d61b5fc24ca3d0678f8ef941f
+      internalID: 732037616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_62
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1441
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552d602d6c4122648bbb8e4672500cda
+      internalID: 1853174096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_63
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1441
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a56a6500a271449b18e05b56a0a7c3
+      internalID: 1149676244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_64
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 1441
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091c64eb14e3b1343922eb87b1e39278
+      internalID: 1928205165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_65
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 1441
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39590f0b0d2f4aa41a908f0f68cc1c30
+      internalID: -226118252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_66
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 1441
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35765eefbc6f233439b412ae00edd2d7
+      internalID: 221122003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_67
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 1441
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951b57e021bff784687c4e9149b7c846
+      internalID: 2129081949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_68
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 1441
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb69a10b7419324cb56a462e5315975
+      internalID: 1351813011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_69
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 1441
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e4fd8d9f1f7a946aea4194c83addc6
+      internalID: 1023439952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_70
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1201
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16b4928400edf248a82f07bf3844dd7
+      internalID: 1929316760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_71
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1201
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cac141f196e4304e917f11ebe524968
+      internalID: 1570264105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_72
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1201
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fb29baccf832d48819a540e28d6f2b
+      internalID: 657058630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_73
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1201
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5226c731db123b94e9b70a9289080a64
+      internalID: -1101920110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_74
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 1201
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c722278b1051243b00c85682b0d72b
+      internalID: -1746844231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_75
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 1201
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f921dc77f36332842b63f095cf1a0593
+      internalID: 450493002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_76
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1201
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b13a6e0bbdefb43b829390a9cc637e
+      internalID: 2013370252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_77
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1201
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0c7e0b90d2dd44c946237de9d7e673
+      internalID: 1182366591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_78
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 1201
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a713ff937f58548bc2ba17a1d24f1b
+      internalID: -1739987179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_79
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 1201
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58940d2e021552949a0773a864731f69
+      internalID: -167106382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_80
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 1201
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dafa0fe80f24e4b9217043a673702f
+      internalID: 2142561057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_81
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 1201
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d09ef98a907a74ba96efc5a936ecee
+      internalID: -774084005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_82
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 1201
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb7e915f65edd449bad7c4c57e1cb52
+      internalID: -589767100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_83
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 1201
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532d7c937398b2943b27fc9642559e0c
+      internalID: -1816812163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_84
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 961
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d05418bfb61465479c715e8af321394
+      internalID: 310995035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_85
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 961
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de3788f85fb11b4087c325c526b8b9b
+      internalID: -1730439596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_86
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 961
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc9f8b13bbd415428133232aa23efa6
+      internalID: 323649990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_87
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 961
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92d27e4647bb294aa617abf89ef5828
+      internalID: -1332990021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_88
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 961
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477eea55e87f81442a7bcc4ae5e7725d
+      internalID: -326954594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_89
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 961
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d87eef711eb60049bf28f58c318efd4
+      internalID: 106022578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_90
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 961
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263feedf7edf92e44a1c8848f154ad93
+      internalID: -676638938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_91
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 961
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0213eb4036bde045a48ccfdc3e6d3d7
+      internalID: -618383140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_92
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 961
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b961b4078668b04c999426d01a329cd
+      internalID: -1439726388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_93
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 961
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a105de736c5a89e4580c172cf83f312f
+      internalID: 1433596930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_94
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 961
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba044b0ecf71ef4290895c100ba591f
+      internalID: -1665768152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_95
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 961
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ddf49f608dcd34c8d8bf630ca23f64
+      internalID: -18183501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_96
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 961
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92ed0463e8e9714a9c6d063717267d9
+      internalID: 2064912693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_97
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 961
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2731f36d39e9fd24db7c2d945beb0d01
+      internalID: 1764760557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_98
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 721
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1cbcc27f2b7524680d8f121d4de020
+      internalID: -1392164259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_99
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 721
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efbe2a1e7187784eb4f760809aba2d6
+      internalID: -1993593528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_100
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 721
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94eb4a5aa44c6e946b0f285990d93125
+      internalID: 7923464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_101
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 721
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e923067f923d14e9deeca547ed1726
+      internalID: -1479574523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_102
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 721
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e174be454e442a41960ae986ee395b9
+      internalID: 1044276828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_103
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 721
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8454599b4b12f7247820574e6b521d58
+      internalID: -737768487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_104
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 721
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f426886d67076a4b89b1fa9e0bffcac
+      internalID: -1872103064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_105
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 721
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8666b5a27fd00ad4bb5e61eb3c5c74dd
+      internalID: -1239168981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_106
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 721
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115029da2ff0e524e9d3261f69a1a848
+      internalID: 350389455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_107
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 721
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829e97c4c654a3f49a11180fb8468bb3
+      internalID: -1184429678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_108
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 721
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8871f4c26ef354e4385a98c8028debbe
+      internalID: 1034963985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_109
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 721
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ee232938006e74e9d5b65e42d92aea
+      internalID: 1581521716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_110
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 721
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c85692e8f13544b99b1e1b57d626a5
+      internalID: 57872071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_111
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 721
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209f57f5b314f0c4d89126539cfdad39
+      internalID: -1096906007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_112
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 481
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b7c65c943f7d14ba93de484bcedc65
+      internalID: -283794930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_113
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 481
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a683fd19b1928b4982d9891497569d8
+      internalID: 2029960514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_114
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 481
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea7047c1c6942242af90fdd5ee88871
+      internalID: -881626397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_115
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 481
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7270ab7036185499a071a9c8b7e987
+      internalID: -1818383779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_116
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 481
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7fe03e3f9e3a645a4c54fadb8a86c9
+      internalID: -1997076895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_117
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 481
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81a8626b13cebb40b6cb796951e89c2
+      internalID: -269762563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_118
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 481
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31686c0207b65f04189022014e6b062a
+      internalID: 1839662198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_119
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 481
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77631e8f0288584e9497188075a8721
+      internalID: 470123327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_120
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 481
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c73a1be13f5524f87b0a12c2df4de9
+      internalID: 1133817631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_121
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 481
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46a64156d625934c81424648fafb908
+      internalID: 13570753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_122
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 481
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96916069deab3c140bdf6de9bd9ad7c0
+      internalID: 1478705811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_123
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 481
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2589d3a61268e42a848bb4d7806059
+      internalID: -1024464365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_124
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 481
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7998c7ecad1b88b4bb73c1119a911fa8
+      internalID: -1049391897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_125
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 481
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87af16f094c4be7459567a160981ef3a
+      internalID: 1426013432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_126
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 241
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e554b4e7c367b7040b3ff42feb50e2c5
+      internalID: 1962578596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_127
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 241
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0655061f8921684a9cdf803f84d3d3f
+      internalID: -379730723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_128
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 241
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cff32bcb26ca343b6c5296b3995f7e
+      internalID: 1383852284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_129
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 241
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbdea6bdc9a40c45afa4cf7cea5444b
+      internalID: -429891001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_130
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 241
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3564ece72af634399c713c6f0afa80
+      internalID: -2139632216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_131
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 241
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f3ef4c16ea1264e9f3138f24fd6215
+      internalID: -1312244777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_132
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 241
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9541ad3e25462b645bc581fc5db28d52
+      internalID: -2088034797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_133
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 241
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7bdfa080e20a94ca9e7c9acdcfa741
+      internalID: -1781330016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_134
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 241
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253a97bc22aff55448e06a1bb13d5236
+      internalID: 735697127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_135
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 241
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce92a1f3ad606d940a7c880d311c96d1
+      internalID: -2103423771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_136
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 241
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc88d1945902d64480c3a2ef244c63a
+      internalID: -1174638244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_137
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 241
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd437a2a1e21964798fcc499b38af7e
+      internalID: -1866793890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_138
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 241
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00631bf84e3d15b49aa453ac63a09239
+      internalID: 1860367535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_139
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 241
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4117197fd4f9c4f9d051b2f12f5d80
+      internalID: -1601221014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_140
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d9f68bf6fa36448b4cfe64fc3bb915
+      internalID: 1150191765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_141
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f514f486c03b5f47b315f61d9c96f55
+      internalID: 204449901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_142
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b784b9ed2b6d2aa4984b2fe503fd65ce
+      internalID: 479147792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_143
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c8558bd1cf633419ff6687f74dea88
+      internalID: -115965939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_144
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 1
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08525842d6a217e40a1d9200a1446fb3
+      internalID: 232861839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_145
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 1
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e8133100a4a594688e2fb31817866a
+      internalID: -298225991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_146
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252eb90959cd4534f83844ab0dc26957
+      internalID: -364279460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_147
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c34a2d4fe7462d43bff0c013355d91d
+      internalID: -940439982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_148
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 1
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229b623cf688e2e418632f9897abb151
+      internalID: -1650383383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_149
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 1
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b021fbf2e761b8343a21e8a19993c036
+      internalID: -432460129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_Portraits_1stGen_150
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 1
+        width: 252
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2010fdd21bb6c4fa0bb777f27ea206
+      internalID: -1285946069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Pokemon_Portraits_1stGen_0: 2000866102
+      Pokemon_Portraits_1stGen_1: -1306389342
+      Pokemon_Portraits_1stGen_10: 1928482267
+      Pokemon_Portraits_1stGen_100: 7923464
+      Pokemon_Portraits_1stGen_101: -1479574523
+      Pokemon_Portraits_1stGen_102: 1044276828
+      Pokemon_Portraits_1stGen_103: -737768487
+      Pokemon_Portraits_1stGen_104: -1872103064
+      Pokemon_Portraits_1stGen_105: -1239168981
+      Pokemon_Portraits_1stGen_106: 350389455
+      Pokemon_Portraits_1stGen_107: -1184429678
+      Pokemon_Portraits_1stGen_108: 1034963985
+      Pokemon_Portraits_1stGen_109: 1581521716
+      Pokemon_Portraits_1stGen_11: -227990987
+      Pokemon_Portraits_1stGen_110: 57872071
+      Pokemon_Portraits_1stGen_111: -1096906007
+      Pokemon_Portraits_1stGen_112: -283794930
+      Pokemon_Portraits_1stGen_113: 2029960514
+      Pokemon_Portraits_1stGen_114: -881626397
+      Pokemon_Portraits_1stGen_115: -1818383779
+      Pokemon_Portraits_1stGen_116: -1997076895
+      Pokemon_Portraits_1stGen_117: -269762563
+      Pokemon_Portraits_1stGen_118: 1839662198
+      Pokemon_Portraits_1stGen_119: 470123327
+      Pokemon_Portraits_1stGen_12: -55748509
+      Pokemon_Portraits_1stGen_120: 1133817631
+      Pokemon_Portraits_1stGen_121: 13570753
+      Pokemon_Portraits_1stGen_122: 1478705811
+      Pokemon_Portraits_1stGen_123: -1024464365
+      Pokemon_Portraits_1stGen_124: -1049391897
+      Pokemon_Portraits_1stGen_125: 1426013432
+      Pokemon_Portraits_1stGen_126: 1962578596
+      Pokemon_Portraits_1stGen_127: -379730723
+      Pokemon_Portraits_1stGen_128: 1383852284
+      Pokemon_Portraits_1stGen_129: -429891001
+      Pokemon_Portraits_1stGen_13: -1703901250
+      Pokemon_Portraits_1stGen_130: -2139632216
+      Pokemon_Portraits_1stGen_131: -1312244777
+      Pokemon_Portraits_1stGen_132: -2088034797
+      Pokemon_Portraits_1stGen_133: -1781330016
+      Pokemon_Portraits_1stGen_134: 735697127
+      Pokemon_Portraits_1stGen_135: -2103423771
+      Pokemon_Portraits_1stGen_136: -1174638244
+      Pokemon_Portraits_1stGen_137: -1866793890
+      Pokemon_Portraits_1stGen_138: 1860367535
+      Pokemon_Portraits_1stGen_139: -1601221014
+      Pokemon_Portraits_1stGen_14: -542336397
+      Pokemon_Portraits_1stGen_140: 1150191765
+      Pokemon_Portraits_1stGen_141: 204449901
+      Pokemon_Portraits_1stGen_142: 479147792
+      Pokemon_Portraits_1stGen_143: -115965939
+      Pokemon_Portraits_1stGen_144: 232861839
+      Pokemon_Portraits_1stGen_145: -298225991
+      Pokemon_Portraits_1stGen_146: -364279460
+      Pokemon_Portraits_1stGen_147: -940439982
+      Pokemon_Portraits_1stGen_148: -1650383383
+      Pokemon_Portraits_1stGen_149: -432460129
+      Pokemon_Portraits_1stGen_15: -382592214
+      Pokemon_Portraits_1stGen_150: -1285946069
+      Pokemon_Portraits_1stGen_151: 1989146694
+      Pokemon_Portraits_1stGen_152: -464667939
+      Pokemon_Portraits_1stGen_153: 1507400589
+      Pokemon_Portraits_1stGen_16: 1423927800
+      Pokemon_Portraits_1stGen_17: -416486557
+      Pokemon_Portraits_1stGen_18: 520138114
+      Pokemon_Portraits_1stGen_19: 484715805
+      Pokemon_Portraits_1stGen_2: -206264103
+      Pokemon_Portraits_1stGen_20: 875746102
+      Pokemon_Portraits_1stGen_21: 2076521797
+      Pokemon_Portraits_1stGen_22: 2104307687
+      Pokemon_Portraits_1stGen_23: 1828217347
+      Pokemon_Portraits_1stGen_24: -724356694
+      Pokemon_Portraits_1stGen_25: -1934334662
+      Pokemon_Portraits_1stGen_26: -1584972603
+      Pokemon_Portraits_1stGen_27: 482523474
+      Pokemon_Portraits_1stGen_28: 1529163836
+      Pokemon_Portraits_1stGen_29: -947172465
+      Pokemon_Portraits_1stGen_3: 1444013573
+      Pokemon_Portraits_1stGen_30: 1918802501
+      Pokemon_Portraits_1stGen_31: 1955131847
+      Pokemon_Portraits_1stGen_32: 1004540540
+      Pokemon_Portraits_1stGen_33: -1935842058
+      Pokemon_Portraits_1stGen_34: -1285615397
+      Pokemon_Portraits_1stGen_35: 851866873
+      Pokemon_Portraits_1stGen_36: -683331346
+      Pokemon_Portraits_1stGen_37: 1590668118
+      Pokemon_Portraits_1stGen_38: 1277495981
+      Pokemon_Portraits_1stGen_39: -1219255725
+      Pokemon_Portraits_1stGen_4: 1779975804
+      Pokemon_Portraits_1stGen_40: -214407761
+      Pokemon_Portraits_1stGen_41: -1896284183
+      Pokemon_Portraits_1stGen_42: 1580134072
+      Pokemon_Portraits_1stGen_43: 1402422845
+      Pokemon_Portraits_1stGen_44: -2062884566
+      Pokemon_Portraits_1stGen_45: 119754089
+      Pokemon_Portraits_1stGen_46: -255998774
+      Pokemon_Portraits_1stGen_47: 474477168
+      Pokemon_Portraits_1stGen_48: -1018833940
+      Pokemon_Portraits_1stGen_49: -831826642
+      Pokemon_Portraits_1stGen_5: 983809593
+      Pokemon_Portraits_1stGen_50: -1928299217
+      Pokemon_Portraits_1stGen_51: -1202689594
+      Pokemon_Portraits_1stGen_52: 65659905
+      Pokemon_Portraits_1stGen_53: -1360685126
+      Pokemon_Portraits_1stGen_54: 1412116661
+      Pokemon_Portraits_1stGen_55: 988871111
+      Pokemon_Portraits_1stGen_56: -1625918951
+      Pokemon_Portraits_1stGen_57: -620130074
+      Pokemon_Portraits_1stGen_58: -533042516
+      Pokemon_Portraits_1stGen_59: -1354419151
+      Pokemon_Portraits_1stGen_6: -1092612424
+      Pokemon_Portraits_1stGen_60: -818164814
+      Pokemon_Portraits_1stGen_61: 732037616
+      Pokemon_Portraits_1stGen_62: 1853174096
+      Pokemon_Portraits_1stGen_63: 1149676244
+      Pokemon_Portraits_1stGen_64: 1928205165
+      Pokemon_Portraits_1stGen_65: -226118252
+      Pokemon_Portraits_1stGen_66: 221122003
+      Pokemon_Portraits_1stGen_67: 2129081949
+      Pokemon_Portraits_1stGen_68: 1351813011
+      Pokemon_Portraits_1stGen_69: 1023439952
+      Pokemon_Portraits_1stGen_7: 911709049
+      Pokemon_Portraits_1stGen_70: 1929316760
+      Pokemon_Portraits_1stGen_71: 1570264105
+      Pokemon_Portraits_1stGen_72: 657058630
+      Pokemon_Portraits_1stGen_73: -1101920110
+      Pokemon_Portraits_1stGen_74: -1746844231
+      Pokemon_Portraits_1stGen_75: 450493002
+      Pokemon_Portraits_1stGen_76: 2013370252
+      Pokemon_Portraits_1stGen_77: 1182366591
+      Pokemon_Portraits_1stGen_78: -1739987179
+      Pokemon_Portraits_1stGen_79: -167106382
+      Pokemon_Portraits_1stGen_8: -1815308420
+      Pokemon_Portraits_1stGen_80: 2142561057
+      Pokemon_Portraits_1stGen_81: -774084005
+      Pokemon_Portraits_1stGen_82: -589767100
+      Pokemon_Portraits_1stGen_83: -1816812163
+      Pokemon_Portraits_1stGen_84: 310995035
+      Pokemon_Portraits_1stGen_85: -1730439596
+      Pokemon_Portraits_1stGen_86: 323649990
+      Pokemon_Portraits_1stGen_87: -1332990021
+      Pokemon_Portraits_1stGen_88: -326954594
+      Pokemon_Portraits_1stGen_89: 106022578
+      Pokemon_Portraits_1stGen_9: -635051864
+      Pokemon_Portraits_1stGen_90: -676638938
+      Pokemon_Portraits_1stGen_91: -618383140
+      Pokemon_Portraits_1stGen_92: -1439726388
+      Pokemon_Portraits_1stGen_93: 1433596930
+      Pokemon_Portraits_1stGen_94: -1665768152
+      Pokemon_Portraits_1stGen_95: -18183501
+      Pokemon_Portraits_1stGen_96: 2064912693
+      Pokemon_Portraits_1stGen_97: 1764760557
+      Pokemon_Portraits_1stGen_98: -1392164259
+      Pokemon_Portraits_1stGen_99: -1993593528
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
