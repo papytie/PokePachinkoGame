@@ -2,18 +2,21 @@ using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
 
-public class Bumper : MonoBehaviour, IToken
+public class Bumper : MonoBehaviour
 {
     public SpriteRenderer SpriteRenderer { get; set; }
+    PokemonData currentPokemonData; 
 
-    public void InitToken()
+
+    public void InitBumper()
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
 
     }
-
-    public void SetSprite(Sprite newSprite)
+    public void SetData(PokemonData data)
     {
-        SpriteRenderer.sprite = newSprite;
+        currentPokemonData = data;
+        SpriteRenderer.sprite = data.icon;
     }
+
 }

@@ -2,11 +2,11 @@ using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
 
-public class Marble : MonoBehaviour, IToken
+public class Marble : MonoBehaviour
 {
     public SpriteRenderer SpriteRenderer { get; set; }
 
-    public void InitToken()
+    public void InitScore()
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
 

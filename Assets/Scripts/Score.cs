@@ -1,40 +1,31 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
 
-public class Score : MonoBehaviour, IToken
+public class Score : MonoBehaviour
 {
     public SpriteRenderer SpriteRenderer { get; set; }
     
-    [SerializeField] float duration = 5.0f;
+    [SerializeField] float lerpDuration = 5.0f;
 
     Vector2 endPosition;
     Vector2 startPosition;
     float currentTime = 0;
+    PokemonData pokemonData;
 
-    public void InitToken()
+    public void InitScore(Vector2 start, Vector2 end, PokemonData data)
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
-
-    }
-
-    public void InitLerpPos(Vector2 start, Vector2 end)
-    {
+        pokemonData = data;
+        SpriteRenderer.sprite = data.portrait;
         startPosition = start;
         endPosition = end;
-    }
 
-    public void SetSprite(Sprite newSprite)
-    {
-        SpriteRenderer.sprite = newSprite;
     }
-
 
     void Update()
     {
         currentTime += Time.deltaTime;
-        transform.position = Vector2.Lerp(startPosition, endPosition, currentTime/duration);
+        transform.position = Vector2.Lerp(startPosition, endPosition, currentTime/lerpDuration);
     }
 }
