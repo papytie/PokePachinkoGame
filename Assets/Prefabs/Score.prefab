@@ -84,7 +84,7 @@ SpriteRenderer:
   m_Size: {x: 2.52, y: 2.3603208}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &2038420010824586169
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1bd5295f9d78d04abe0704cbac8f15d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 30
+  lerpDuration: 30
 --- !u!58 &8005203965020424788
 CircleCollider2D:
   m_ObjectHideFlags: 0

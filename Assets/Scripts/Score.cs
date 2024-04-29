@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(SpriteRenderer), typeof(AudioSource))]
 
 public class Score : MonoBehaviour
 {
@@ -12,12 +12,15 @@ public class Score : MonoBehaviour
     Vector2 startPosition;
     float currentTime = 0;
     PokemonData pokemonData;
+    AudioSource audioSource;
 
     public void InitScore(Vector2 start, Vector2 end, PokemonData data)
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>();
         pokemonData = data;
         SpriteRenderer.sprite = data.portrait;
+        audioSource.clip = data.nameAnnounce;
         startPosition = start;
         endPosition = end;
 
@@ -27,5 +30,12 @@ public class Score : MonoBehaviour
     {
         currentTime += Time.deltaTime;
         transform.position = Vector2.Lerp(startPosition, endPosition, currentTime/lerpDuration);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.GetComponent<Marble>())
+            audioSource.Play();
+
     }
 }

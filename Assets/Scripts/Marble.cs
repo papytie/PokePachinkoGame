@@ -1,24 +1,35 @@
 using UnityEngine;
 
-[RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(SpriteRenderer), typeof(Rigidbody))]
 
 public class Marble : MonoBehaviour
 {
-    public SpriteRenderer SpriteRenderer { get; set; }
+    public SpriteRenderer SpriteRenderer => spriteRenderer;
+    public Rigidbody2D Rigidbody => rigidBody;
 
-    public void InitScore()
+    SpriteRenderer spriteRenderer;
+    Rigidbody2D rigidBody;
+    
+
+    public void InitMarble()
     {
-        SpriteRenderer = GetComponent<SpriteRenderer>();
-
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        rigidBody = GetComponent<Rigidbody2D>();
     }
 
     public void SetSprite(Sprite newSprite)
     {
-        SpriteRenderer.sprite = newSprite;
+        spriteRenderer.sprite = newSprite;
     }
 
-    void Update()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        if (collision.gameObject.GetComponent<Bumper>())
+        {
+            Vector2 forceVector = (transform.position - collision.transform.position).normalized * 100;
+            rigidBody.AddForce(forceVector);
+        }
     }
+
+    
 }
