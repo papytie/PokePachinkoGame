@@ -12,7 +12,9 @@ public class PlayerLauncher : MonoBehaviour
     [SerializeField] float startForce = 100f;
     [SerializeField] float maxForce = 1000f;
     [SerializeField] float forceIncrease = 10f;
-    [SerializeField] Marble marblePrefab;
+    [SerializeField] GameObject marblePrefab;
+    [SerializeField] GameObject previewPrefab;
+    [SerializeField] float previewDelay = 0;
     [SerializeField] float currentForce = 0;
 
     [Header("Debug")]
@@ -25,6 +27,10 @@ public class PlayerLauncher : MonoBehaviour
     InputAction power;
     InputAction aim;
     float currentSpeed = 0;
+    float pressedTime = 0;
+    float startTime = 0;
+    int previewCount = 0;
+    PreviewObject currentPreview;
     Vector2 launchVector = Vector2.zero;
     Vector2 mousePos = Vector2.zero;
     Vector2 mouseWorldPos = Vector2.zero;
@@ -63,27 +69,51 @@ public class PlayerLauncher : MonoBehaviour
         
         else transform.position = new Vector2(transform.position.x + currentSpeed * Time.deltaTime, height);
 
+        if(launch.WasPerformedThisFrame())
+        {
+            startTime = Time.time;
+            pressedTime = Time.time;
+        }
+
         //Launch
         if (launch.IsPressed())
+        {
+            pressedTime += Time.deltaTime;
+            if(pressedTime > startTime + previewDelay * previewCount)
+            {
+                if (currentPreview != null)
+                    currentPreview.DestroyPreview();
+                currentPreview = LaunchPreview();
+                previewCount++;
+            }
             currentForce = Mathf.MoveTowards(currentForce, maxForce, Time.deltaTime * forceIncrease);
+
+        }
 
         if(launch.WasReleasedThisFrame())
         {
-            LaunchMarble(launchVector, currentForce);
+            if(currentPreview != null)
+                currentPreview.DestroyPreview();
+            Marble newMarble = Instantiate(marblePrefab, transform.position, Quaternion.identity).GetComponent<Marble>();
+            newMarble.InitMarble();
+            newMarble.Rigidbody.AddForce(launchVector * currentForce);
+            previewCount = 0;
+            pressedTime = 0;
             currentForce = startForce;
         }
+    }
+
+    PreviewObject LaunchPreview()
+    {
+            PreviewObject newPreview = Instantiate(previewPrefab, transform.position, Quaternion.identity).GetComponent<PreviewObject>();
+            newPreview.InitPreview();
+            newPreview.Rigidbody.AddForce(launchVector * currentForce);
+            return newPreview;
     }
 
     public void ResetPosition()
     {
         transform.position = new Vector2(0, height);
-    }
-
-    public void LaunchMarble(Vector2 vector, float force)
-    {
-        Marble newMarble = Instantiate(marblePrefab, transform.position, Quaternion.identity);
-        newMarble.InitMarble();
-        newMarble.Rigidbody.AddForce(vector * force);
     }
 
     private void OnDrawGizmos()

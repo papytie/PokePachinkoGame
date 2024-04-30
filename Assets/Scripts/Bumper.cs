@@ -48,7 +48,7 @@ public class Bumper : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (!isMute) 
+        if (!isMute && collision.gameObject.GetComponent<Marble>()) 
         {
             PlaySound();
         }

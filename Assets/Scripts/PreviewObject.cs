@@ -1,27 +1,36 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(SpriteRenderer), typeof(Rigidbody))]
+[RequireComponent(typeof(Rigidbody2D), typeof(CircleCollider2D))]
 
-public class Marble : MonoBehaviour
+public class PreviewObject : MonoBehaviour
 {
-    public SpriteRenderer SpriteRenderer => spriteRenderer;
     public Rigidbody2D Rigidbody => rigidBody;
     public CircleCollider2D CircleCollider => circleCollider;
 
-    SpriteRenderer spriteRenderer;
     Rigidbody2D rigidBody;
     CircleCollider2D circleCollider;
 
-    public void InitMarble()
+    public void InitPreview()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
         rigidBody = GetComponent<Rigidbody2D>();
         circleCollider = GetComponent<CircleCollider2D>();
     }
 
-    public void SetSprite(Sprite newSprite)
+    public void DestroyPreview()
     {
-        spriteRenderer.sprite = newSprite;
+        Destroy(gameObject);
+    }
+
+    void Start()
+    {
+        
+    }
+
+    void Update()
+    {
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -32,6 +41,4 @@ public class Marble : MonoBehaviour
             rigidBody.AddForce(forceVector);
         }
     }
-
-    
 }

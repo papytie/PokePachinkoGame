@@ -470,12 +470,14 @@ MonoBehaviour:
   rightBorderThreshold: 5
   speed: 4
   acceleration: 40
-  startForce: 100
-  maxForce: 500
+  startForce: 50
+  maxForce: 250
   forceIncrease: 100
-  marblePrefab: {fileID: 4403243473386917379, guid: a4e2cef355edfd5449b4b8aa05d0d75f, type: 3}
+  marblePrefab: {fileID: 5534140342738691628, guid: a4e2cef355edfd5449b4b8aa05d0d75f, type: 3}
+  previewPrefab: {fileID: 1022792367077606932, guid: 56fb013e6ae95974fb352155311c4514, type: 3}
+  previewDelay: 0.5
   currentForce: 0
-  showDebug: 1
+  showDebug: 0
   thresholdColor: {r: 0, g: 0, b: 1, a: 1}
 --- !u!114 &940009044
 MonoBehaviour:
