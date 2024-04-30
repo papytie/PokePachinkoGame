@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[RequireComponent(typeof(SpriteRenderer), typeof(AudioSource))]
+[RequireComponent(typeof(SpriteRenderer), typeof(CircleCollider2D), typeof(AudioSource))]
 
 public class Score : MonoBehaviour
 {
@@ -13,11 +13,13 @@ public class Score : MonoBehaviour
     float currentTime = 0;
     PokemonData pokemonData;
     AudioSource audioSource;
+    CircleCollider2D circleCollider;
 
     public void InitScore(Vector2 start, Vector2 end, PokemonData data)
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
         audioSource = GetComponent<AudioSource>();
+        circleCollider = GetComponent<CircleCollider2D>();
         pokemonData = data;
         SpriteRenderer.sprite = data.portrait;
         audioSource.clip = data.nameAnnounce;
