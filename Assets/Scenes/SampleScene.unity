@@ -477,7 +477,7 @@ MonoBehaviour:
   previewPrefab: {fileID: 1022792367077606932, guid: 56fb013e6ae95974fb352155311c4514, type: 3}
   previewDelay: 0.5
   currentForce: 0
-  showDebug: 0
+  showDebug: 1
   thresholdColor: {r: 0, g: 0, b: 1, a: 1}
 --- !u!114 &940009044
 MonoBehaviour:

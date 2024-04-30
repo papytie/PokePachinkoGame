@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 
-[RequireComponent(typeof(SpriteRenderer), typeof(AudioSource))]
+[RequireComponent(typeof(AudioSource))]
 
 public class Bumper : MonoBehaviour
 {
@@ -17,7 +17,7 @@ public class Bumper : MonoBehaviour
 
     public void InitBumper()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         audioSource = GetComponent<AudioSource>();
 
     }

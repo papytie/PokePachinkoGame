@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[RequireComponent(typeof(SpriteRenderer), typeof(Rigidbody))]
+[RequireComponent(typeof(Rigidbody))]
 
 public class Marble : MonoBehaviour
 {
@@ -14,7 +14,7 @@ public class Marble : MonoBehaviour
 
     public void InitMarble()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         rigidBody = GetComponent<Rigidbody2D>();
         circleCollider = GetComponent<CircleCollider2D>();
     }
