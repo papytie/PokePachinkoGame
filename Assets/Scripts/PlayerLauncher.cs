@@ -12,8 +12,7 @@ public class PlayerLauncher : MonoBehaviour
     [SerializeField] float startForce = 100f;
     [SerializeField] float maxForce = 1000f;
     [SerializeField] float forceIncrease = 10f;
-    [SerializeField] GameObject marblePrefab;
-    [SerializeField] GameObject previewPrefab;
+    [SerializeField] Marble marblePrefab;
     [SerializeField] float previewDelay = 0;
     [SerializeField] float currentForce = 0;
 
@@ -30,7 +29,7 @@ public class PlayerLauncher : MonoBehaviour
     float pressedTime = 0;
     float startTime = 0;
     int previewCount = 0;
-    PreviewObject currentPreview;
+    Marble currentPreview;
     Vector2 launchVector = Vector2.zero;
     Vector2 mousePos = Vector2.zero;
     Vector2 mouseWorldPos = Vector2.zero;
@@ -78,14 +77,14 @@ public class PlayerLauncher : MonoBehaviour
         //Launch
         if (launch.IsPressed())
         {
-            pressedTime += Time.deltaTime;
+            /*pressedTime += Time.deltaTime;
             if(pressedTime > startTime + previewDelay * previewCount)
             {
                 if (currentPreview != null)
-                    currentPreview.DestroyPreview();
+                    Destroy(currentPreview.gameObject);
                 currentPreview = LaunchPreview();
                 previewCount++;
-            }
+            }*/
             currentForce = Mathf.MoveTowards(currentForce, maxForce, Time.deltaTime * forceIncrease);
 
         }
@@ -93,8 +92,8 @@ public class PlayerLauncher : MonoBehaviour
         if(launch.WasReleasedThisFrame())
         {
             if(currentPreview != null)
-                currentPreview.DestroyPreview();
-            Marble newMarble = Instantiate(marblePrefab, transform.position, Quaternion.identity).GetComponent<Marble>();
+                Destroy(currentPreview.gameObject);
+            Marble newMarble = Instantiate(marblePrefab, transform.position, Quaternion.identity);
             newMarble.InitMarble();
             newMarble.Rigidbody.AddForce(launchVector * currentForce);
             previewCount = 0;
@@ -103,9 +102,9 @@ public class PlayerLauncher : MonoBehaviour
         }
     }
 
-    PreviewObject LaunchPreview()
+    Marble LaunchPreview()
     {
-            PreviewObject newPreview = Instantiate(previewPrefab, transform.position, Quaternion.identity).GetComponent<PreviewObject>();
+            Marble newPreview = Instantiate(marblePrefab, transform.position, Quaternion.identity);
             newPreview.InitPreview();
             newPreview.Rigidbody.AddForce(launchVector * currentForce);
             return newPreview;

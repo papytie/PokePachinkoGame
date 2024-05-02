@@ -150,8 +150,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 940009042}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -414,8 +414,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gridWidth: 10.46
   gridHeight: 3.86
-  gridColumns: 9
-  gridRows: 4
+  gridColumns: 13
+  gridRows: 6
   bumperPrefab: {fileID: 8752658671397439614, guid: 44ce4264962fd3a4487c622acbef7182, type: 3}
   showDebug: 0
   gridColor: {r: 1, g: 1, b: 1, a: 1}
@@ -470,11 +470,10 @@ MonoBehaviour:
   rightBorderThreshold: 5
   speed: 4
   acceleration: 40
-  startForce: 50
-  maxForce: 250
-  forceIncrease: 100
-  marblePrefab: {fileID: 5534140342738691628, guid: a4e2cef355edfd5449b4b8aa05d0d75f, type: 3}
-  previewPrefab: {fileID: 1022792367077606932, guid: 56fb013e6ae95974fb352155311c4514, type: 3}
+  startForce: 100
+  maxForce: 300
+  forceIncrease: 50
+  marblePrefab: {fileID: 4403243473386917379, guid: a4e2cef355edfd5449b4b8aa05d0d75f, type: 3}
   previewDelay: 0.5
   currentForce: 0
   showDebug: 1
@@ -659,7 +658,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

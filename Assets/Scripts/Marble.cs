@@ -5,17 +5,25 @@ using UnityEngine;
 public class Marble : MonoBehaviour
 {
     public SpriteRenderer SpriteRenderer => spriteRenderer;
-    public Rigidbody2D Rigidbody => rigidBody;
+    public Rigidbody2D Rigidbody => rigidbody;
     public CircleCollider2D CircleCollider => circleCollider;
 
     SpriteRenderer spriteRenderer;
-    Rigidbody2D rigidBody;
+    Rigidbody2D rigidbody;
     CircleCollider2D circleCollider;
 
     public void InitMarble()
     {
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-        rigidBody = GetComponent<Rigidbody2D>();
+        rigidbody = GetComponent<Rigidbody2D>();
+        circleCollider = GetComponent<CircleCollider2D>();
+    }
+
+    public void InitPreview()
+    {
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        spriteRenderer.sprite = null;
+        rigidbody = GetComponent<Rigidbody2D>();
         circleCollider = GetComponent<CircleCollider2D>();
     }
 
@@ -24,12 +32,23 @@ public class Marble : MonoBehaviour
         spriteRenderer.sprite = newSprite;
     }
 
+    void Bounce(Collision2D collision, float bumpStrength)
+    {
+        Vector2 forceVector = (transform.position - collision.transform.position).normalized * bumpStrength;
+        rigidbody.AddForce(forceVector);
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.GetComponent<Bumper>())
         {
-            Vector2 forceVector = (transform.position - collision.transform.position).normalized * 100;
-            rigidBody.AddForce(forceVector);
+            float currentVelocity = rigidbody.velocity.magnitude;
+            Debug.Log("Current velocity : " + currentVelocity);
+            Bumper bumper = collision.gameObject.GetComponent<Bumper>();
+            //Bounce(collision, bumper.BumperStrength);
+            Vector2 bumpDirection = bumper.BumpDirection(collision.GetContact(0).point);
+            rigidbody.velocity = bumpDirection;
+            rigidbody.AddForce(bumpDirection.normalized * bumper.BumperStrength, ForceMode2D.Impulse);
         }
     }
 
