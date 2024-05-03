@@ -19,6 +19,7 @@ public class Bumper : MonoBehaviour
     float startTime = 0;
 
     Vector2 contact;
+    Vector2 velocity;
 
     public void InitBumper()
     {
@@ -51,19 +52,19 @@ public class Bumper : MonoBehaviour
         audioSource.clip = data.cry;
     }
 
-    public Vector2 BumpDirection(Vector2 contactPos)
+    public Vector2 GetBumpDirection(Vector2 contactPosistion, Vector2 marbleVelocity)
     {
-        contact = contactPos;
+        contact = contactPosistion;
+        velocity = marbleVelocity;
         Vector2 center = transform.position;
-        Vector2 initialDirection = (contactPos - center).normalized;
-        Debug.Log("Initial direction : " + initialDirection);
-        Vector2 bumpNormal = initialDirection.x < 0 ? -transform.right : transform.right;
-        return Vector2.Reflect(initialDirection, bumpNormal);
+        Vector2 initialDirection = (center - contactPosistion).normalized;
+        return Vector2.Reflect(marbleVelocity, -initialDirection).normalized;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (!isMute && collision.gameObject.GetComponent<Marble>()) 
+        Marble marble = collider.GetComponent<Marble>();
+        if (!isMute && marble != null) 
         {
             PlaySound();
         }
@@ -72,12 +73,12 @@ public class Bumper : MonoBehaviour
     {
         if (contact.x != 0 || contact.y != 0)
         {
+            Vector2 center = transform.position;
             Gizmos.color = Color.red;
             Gizmos.DrawSphere(contact, .05f);
-            Gizmos.DrawLine(contact, transform.position);
+            Gizmos.DrawLine(contact, center);
             Gizmos.color = Color.green;
-            Vector2 center = transform.position;
-            Gizmos.DrawLine(transform.position, center + BumpDirection(contact));
+            Gizmos.DrawLine(center, center + GetBumpDirection(contact, velocity));
         }
     }
 }

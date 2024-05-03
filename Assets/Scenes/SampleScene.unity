@@ -414,7 +414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gridWidth: 10.46
   gridHeight: 3.86
-  gridColumns: 13
+  gridColumns: 9
   gridRows: 6
   bumperPrefab: {fileID: 8752658671397439614, guid: 44ce4264962fd3a4487c622acbef7182, type: 3}
   showDebug: 0
